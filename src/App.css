@@ -104,3 +104,70 @@ body {
   color: #61DAFB;
   font-size: 1.5em;
 }
+
+/* Responsive queries from ChatGPT */
+
+/* Responsive queries for mobile devices */
+
+/* Card */
+@media screen and (max-width: 767px) {
+  .card--container {
+    padding: 15px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Navbar */
+@media screen and (max-width: 767px) {
+  .nav--container {
+    padding: 20px;
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav--logo_text {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Main component */
+@media screen and (max-width: 767px) {
+  .main--card {
+    padding: 25px;
+  }
+}
+
+/* Responsive queries for tablets and larger devices */
+
+/* Navbar */
+@media screen and (min-width: 768px) {
+  .nav--container {
+    height: 120px;
+    padding: 30px 50px;
+  }
+}
+
+/* Main component */
+@media screen and (min-width: 768px) {
+  .main--card {
+    padding: 57px 50px;
+  }
+}
+
+/* Responsive queries for desktop and larger devices */
+
+/* Main component */
+@media screen and (min-width: 1280px) {
+  .main--card {
+    padding: 57px 100px;
+  }
+}
+
+
+/* These responsive queries target different screen sizes and adjust the styles of the navbar and main component accordingly. The queries for mobile devices (max-width: 767px) adjust the layout and spacing of the navbar and decrease the padding of the main component. The queries for tablets and larger devices (min-width: 768px) increase the height and padding of the navbar and main component. Finally, the queries for desktop and larger devices (min-width: 1280px) further increase the padding of the main component. */
